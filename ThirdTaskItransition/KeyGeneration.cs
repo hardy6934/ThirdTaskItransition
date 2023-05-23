@@ -19,9 +19,7 @@ namespace ThirdTaskItransition
             }
             
         } 
-
-       
-
+         
         public string GenerateHMAC(string choise, string key)
         {
             using (var hmacsha256 = new HMACSHA256(Encoding.UTF8.GetBytes(key)))

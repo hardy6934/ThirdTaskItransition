@@ -67,8 +67,7 @@ namespace ThirdTaskItransition
                         break;
                     }
                     else if (playerChoise == "?")
-                    {
-                        Console.WriteLine("qweqweqw");
+                    { 
                         helpTable.Help(args.Count(), args);
                     }
 
